@@ -1,21 +1,28 @@
-body
+.indexdesign
 {
     margin-top: 300px;
     color:teal;
-    font-family: monospace, 'Times New Roman', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
-
+.recipedesign
+{
+    font-family: monospace, 'Times New Roman', sans-serif;
+    background-image: url("images/recipeback.jpg");
+    background-size: contain;
+    text-align: center;
+}
 a
 {
     color: lavender;
 }
 
-.design
+ul, ol
 {
-    text-align: center;
+    list-style-position: inside;
 }
 
 .block {
@@ -24,7 +31,7 @@ a
     border-radius: 25px;
     width: min(70%, 500px);
 }
-#contents {
+#contentsindex {
     height: 450px;
     border-radius: 25px;
     background-color: rgb(46, 44, 44);
